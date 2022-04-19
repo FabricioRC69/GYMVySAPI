@@ -1,0 +1,102 @@
+D:\Uni. Fidelitas\Universidad 8 cuatrimestre\Programacion avanzada\Proyecto\GYM_VidaYSalud\bin\Debug\net6.0\appsettings.Development.json
+D:\Uni. Fidelitas\Universidad 8 cuatrimestre\Programacion avanzada\Proyecto\GYM_VidaYSalud\bin\Debug\net6.0\appsettings.json
+D:\Uni. Fidelitas\Universidad 8 cuatrimestre\Programacion avanzada\Proyecto\GYM_VidaYSalud\bin\Debug\net6.0\GYM_VidaYSalud.exe
+D:\Uni. Fidelitas\Universidad 8 cuatrimestre\Programacion avanzada\Proyecto\GYM_VidaYSalud\bin\Debug\net6.0\GYM_VidaYSalud.deps.json
+D:\Uni. Fidelitas\Universidad 8 cuatrimestre\Programacion avanzada\Proyecto\GYM_VidaYSalud\bin\Debug\net6.0\GYM_VidaYSalud.runtimeconfig.json
+D:\Uni. Fidelitas\Universidad 8 cuatrimestre\Programacion avanzada\Proyecto\GYM_VidaYSalud\bin\Debug\net6.0\GYM_VidaYSalud.dll
+D:\Uni. Fidelitas\Universidad 8 cuatrimestre\Programacion avanzada\Proyecto\GYM_VidaYSalud\bin\Debug\net6.0\ref\GYM_VidaYSalud.dll
+D:\Uni. Fidelitas\Universidad 8 cuatrimestre\Programacion avanzada\Proyecto\GYM_VidaYSalud\bin\Debug\net6.0\GYM_VidaYSalud.pdb
+D:\Uni. Fidelitas\Universidad 8 cuatrimestre\Programacion avanzada\Proyecto\GYM_VidaYSalud\bin\Debug\net6.0\Dapper.dll
+D:\Uni. Fidelitas\Universidad 8 cuatrimestre\Programacion avanzada\Proyecto\GYM_VidaYSalud\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\Uni. Fidelitas\Universidad 8 cuatrimestre\Programacion avanzada\Proyecto\GYM_VidaYSalud\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Uni. Fidelitas\Universidad 8 cuatrimestre\Programacion avanzada\Proyecto\GYM_VidaYSalud\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Uni. Fidelitas\Universidad 8 cuatrimestre\Programacion avanzada\Proyecto\GYM_VidaYSalud\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Uni. Fidelitas\Universidad 8 cuatrimestre\Programacion avanzada\Proyecto\GYM_VidaYSalud\bin\Debug\net6.0\System.Data.SqlClient.dll
+D:\Uni. Fidelitas\Universidad 8 cuatrimestre\Programacion avanzada\Proyecto\GYM_VidaYSalud\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+D:\Uni. Fidelitas\Universidad 8 cuatrimestre\Programacion avanzada\Proyecto\GYM_VidaYSalud\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+D:\Uni. Fidelitas\Universidad 8 cuatrimestre\Programacion avanzada\Proyecto\GYM_VidaYSalud\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+D:\Uni. Fidelitas\Universidad 8 cuatrimestre\Programacion avanzada\Proyecto\GYM_VidaYSalud\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Uni. Fidelitas\Universidad 8 cuatrimestre\Programacion avanzada\Proyecto\GYM_VidaYSalud\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Uni. Fidelitas\Universidad 8 cuatrimestre\Programacion avanzada\Proyecto\GYM_VidaYSalud\obj\Debug\net6.0\GYM_VidaYSalud.csproj.AssemblyReference.cache
+D:\Uni. Fidelitas\Universidad 8 cuatrimestre\Programacion avanzada\Proyecto\GYM_VidaYSalud\obj\Debug\net6.0\GYM_VidaYSalud.GeneratedMSBuildEditorConfig.editorconfig
+D:\Uni. Fidelitas\Universidad 8 cuatrimestre\Programacion avanzada\Proyecto\GYM_VidaYSalud\obj\Debug\net6.0\GYM_VidaYSalud.AssemblyInfoInputs.cache
+D:\Uni. Fidelitas\Universidad 8 cuatrimestre\Programacion avanzada\Proyecto\GYM_VidaYSalud\obj\Debug\net6.0\GYM_VidaYSalud.AssemblyInfo.cs
+D:\Uni. Fidelitas\Universidad 8 cuatrimestre\Programacion avanzada\Proyecto\GYM_VidaYSalud\obj\Debug\net6.0\GYM_VidaYSalud.csproj.CoreCompileInputs.cache
+D:\Uni. Fidelitas\Universidad 8 cuatrimestre\Programacion avanzada\Proyecto\GYM_VidaYSalud\obj\Debug\net6.0\GYM_VidaYSalud.MvcApplicationPartsAssemblyInfo.cs
+D:\Uni. Fidelitas\Universidad 8 cuatrimestre\Programacion avanzada\Proyecto\GYM_VidaYSalud\obj\Debug\net6.0\GYM_VidaYSalud.MvcApplicationPartsAssemblyInfo.cache
+D:\Uni. Fidelitas\Universidad 8 cuatrimestre\Programacion avanzada\Proyecto\GYM_VidaYSalud\obj\Debug\net6.0\staticwebassets.build.json
+D:\Uni. Fidelitas\Universidad 8 cuatrimestre\Programacion avanzada\Proyecto\GYM_VidaYSalud\obj\Debug\net6.0\staticwebassets.development.json
+D:\Uni. Fidelitas\Universidad 8 cuatrimestre\Programacion avanzada\Proyecto\GYM_VidaYSalud\obj\Debug\net6.0\scopedcss\bundle\GYM_VidaYSalud.styles.css
+D:\Uni. Fidelitas\Universidad 8 cuatrimestre\Programacion avanzada\Proyecto\GYM_VidaYSalud\obj\Debug\net6.0\GYM_VidaYSalud.csproj.CopyComplete
+D:\Uni. Fidelitas\Universidad 8 cuatrimestre\Programacion avanzada\Proyecto\GYM_VidaYSalud\obj\Debug\net6.0\GYM_VidaYSalud.dll
+D:\Uni. Fidelitas\Universidad 8 cuatrimestre\Programacion avanzada\Proyecto\GYM_VidaYSalud\obj\Debug\net6.0\ref\GYM_VidaYSalud.dll
+D:\Uni. Fidelitas\Universidad 8 cuatrimestre\Programacion avanzada\Proyecto\GYM_VidaYSalud\obj\Debug\net6.0\GYM_VidaYSalud.pdb
+D:\Uni. Fidelitas\Universidad 8 cuatrimestre\Programacion avanzada\Proyecto\GYM_VidaYSalud\obj\Debug\net6.0\GYM_VidaYSalud.genruntimeconfig.cache
+D:\SEXTO CUATRI\PROGRAMACION AVANZADA EN WEB\PROYECTO\GYM_VidaYSalud\bin\Debug\net6.0\appsettings.Development.json
+D:\SEXTO CUATRI\PROGRAMACION AVANZADA EN WEB\PROYECTO\GYM_VidaYSalud\bin\Debug\net6.0\appsettings.json
+D:\SEXTO CUATRI\PROGRAMACION AVANZADA EN WEB\PROYECTO\GYM_VidaYSalud\bin\Debug\net6.0\GYM_VidaYSalud.exe
+D:\SEXTO CUATRI\PROGRAMACION AVANZADA EN WEB\PROYECTO\GYM_VidaYSalud\bin\Debug\net6.0\GYM_VidaYSalud.deps.json
+D:\SEXTO CUATRI\PROGRAMACION AVANZADA EN WEB\PROYECTO\GYM_VidaYSalud\bin\Debug\net6.0\GYM_VidaYSalud.runtimeconfig.json
+D:\SEXTO CUATRI\PROGRAMACION AVANZADA EN WEB\PROYECTO\GYM_VidaYSalud\bin\Debug\net6.0\GYM_VidaYSalud.dll
+D:\SEXTO CUATRI\PROGRAMACION AVANZADA EN WEB\PROYECTO\GYM_VidaYSalud\bin\Debug\net6.0\GYM_VidaYSalud.pdb
+D:\SEXTO CUATRI\PROGRAMACION AVANZADA EN WEB\PROYECTO\GYM_VidaYSalud\bin\Debug\net6.0\Dapper.dll
+D:\SEXTO CUATRI\PROGRAMACION AVANZADA EN WEB\PROYECTO\GYM_VidaYSalud\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\SEXTO CUATRI\PROGRAMACION AVANZADA EN WEB\PROYECTO\GYM_VidaYSalud\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\SEXTO CUATRI\PROGRAMACION AVANZADA EN WEB\PROYECTO\GYM_VidaYSalud\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\SEXTO CUATRI\PROGRAMACION AVANZADA EN WEB\PROYECTO\GYM_VidaYSalud\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\SEXTO CUATRI\PROGRAMACION AVANZADA EN WEB\PROYECTO\GYM_VidaYSalud\bin\Debug\net6.0\System.Data.SqlClient.dll
+D:\SEXTO CUATRI\PROGRAMACION AVANZADA EN WEB\PROYECTO\GYM_VidaYSalud\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+D:\SEXTO CUATRI\PROGRAMACION AVANZADA EN WEB\PROYECTO\GYM_VidaYSalud\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+D:\SEXTO CUATRI\PROGRAMACION AVANZADA EN WEB\PROYECTO\GYM_VidaYSalud\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+D:\SEXTO CUATRI\PROGRAMACION AVANZADA EN WEB\PROYECTO\GYM_VidaYSalud\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\SEXTO CUATRI\PROGRAMACION AVANZADA EN WEB\PROYECTO\GYM_VidaYSalud\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\SEXTO CUATRI\PROGRAMACION AVANZADA EN WEB\PROYECTO\GYM_VidaYSalud\obj\Debug\net6.0\GYM_VidaYSalud.csproj.AssemblyReference.cache
+D:\SEXTO CUATRI\PROGRAMACION AVANZADA EN WEB\PROYECTO\GYM_VidaYSalud\obj\Debug\net6.0\GYM_VidaYSalud.GeneratedMSBuildEditorConfig.editorconfig
+D:\SEXTO CUATRI\PROGRAMACION AVANZADA EN WEB\PROYECTO\GYM_VidaYSalud\obj\Debug\net6.0\GYM_VidaYSalud.AssemblyInfoInputs.cache
+D:\SEXTO CUATRI\PROGRAMACION AVANZADA EN WEB\PROYECTO\GYM_VidaYSalud\obj\Debug\net6.0\GYM_VidaYSalud.AssemblyInfo.cs
+D:\SEXTO CUATRI\PROGRAMACION AVANZADA EN WEB\PROYECTO\GYM_VidaYSalud\obj\Debug\net6.0\GYM_VidaYSalud.csproj.CoreCompileInputs.cache
+D:\SEXTO CUATRI\PROGRAMACION AVANZADA EN WEB\PROYECTO\GYM_VidaYSalud\obj\Debug\net6.0\GYM_VidaYSalud.MvcApplicationPartsAssemblyInfo.cs
+D:\SEXTO CUATRI\PROGRAMACION AVANZADA EN WEB\PROYECTO\GYM_VidaYSalud\obj\Debug\net6.0\GYM_VidaYSalud.MvcApplicationPartsAssemblyInfo.cache
+D:\SEXTO CUATRI\PROGRAMACION AVANZADA EN WEB\PROYECTO\GYM_VidaYSalud\obj\Debug\net6.0\staticwebassets.build.json
+D:\SEXTO CUATRI\PROGRAMACION AVANZADA EN WEB\PROYECTO\GYM_VidaYSalud\obj\Debug\net6.0\staticwebassets.development.json
+D:\SEXTO CUATRI\PROGRAMACION AVANZADA EN WEB\PROYECTO\GYM_VidaYSalud\obj\Debug\net6.0\scopedcss\bundle\GYM_VidaYSalud.styles.css
+D:\SEXTO CUATRI\PROGRAMACION AVANZADA EN WEB\PROYECTO\GYM_VidaYSalud\obj\Debug\net6.0\GYM_VidaYSalud.csproj.CopyComplete
+D:\SEXTO CUATRI\PROGRAMACION AVANZADA EN WEB\PROYECTO\GYM_VidaYSalud\obj\Debug\net6.0\GYM_VidaYSalud.dll
+D:\SEXTO CUATRI\PROGRAMACION AVANZADA EN WEB\PROYECTO\GYM_VidaYSalud\obj\Debug\net6.0\refint\GYM_VidaYSalud.dll
+D:\SEXTO CUATRI\PROGRAMACION AVANZADA EN WEB\PROYECTO\GYM_VidaYSalud\obj\Debug\net6.0\GYM_VidaYSalud.pdb
+D:\SEXTO CUATRI\PROGRAMACION AVANZADA EN WEB\PROYECTO\GYM_VidaYSalud\obj\Debug\net6.0\GYM_VidaYSalud.genruntimeconfig.cache
+D:\SEXTO CUATRI\PROGRAMACION AVANZADA EN WEB\PROYECTO\GYM_VidaYSalud\obj\Debug\net6.0\ref\GYM_VidaYSalud.dll
+C:\Users\Fabricio\Desktop\ProyectoJN\GYM_VidaYSalud\obj\Debug\net6.0\GYM_VidaYSalud.dll
+C:\Users\Fabricio\Desktop\ProyectoJN\GYM_VidaYSalud\obj\Debug\net6.0\refint\GYM_VidaYSalud.dll
+C:\Users\Fabricio\Desktop\ProyectoJN\GYM_VidaYSalud\obj\Debug\net6.0\GYM_VidaYSalud.pdb
+C:\Users\Fabricio\Desktop\ProyectoJN\GYM_VidaYSalud\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Fabricio\Desktop\ProyectoJN\GYM_VidaYSalud\bin\Debug\net6.0\appsettings.json
+C:\Users\Fabricio\Desktop\ProyectoJN\GYM_VidaYSalud\bin\Debug\net6.0\GYM_VidaYSalud.exe
+C:\Users\Fabricio\Desktop\ProyectoJN\GYM_VidaYSalud\bin\Debug\net6.0\GYM_VidaYSalud.deps.json
+C:\Users\Fabricio\Desktop\ProyectoJN\GYM_VidaYSalud\bin\Debug\net6.0\GYM_VidaYSalud.runtimeconfig.json
+C:\Users\Fabricio\Desktop\ProyectoJN\GYM_VidaYSalud\bin\Debug\net6.0\GYM_VidaYSalud.dll
+C:\Users\Fabricio\Desktop\ProyectoJN\GYM_VidaYSalud\bin\Debug\net6.0\GYM_VidaYSalud.pdb
+C:\Users\Fabricio\Desktop\ProyectoJN\GYM_VidaYSalud\bin\Debug\net6.0\Dapper.dll
+C:\Users\Fabricio\Desktop\ProyectoJN\GYM_VidaYSalud\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\Fabricio\Desktop\ProyectoJN\GYM_VidaYSalud\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Fabricio\Desktop\ProyectoJN\GYM_VidaYSalud\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Fabricio\Desktop\ProyectoJN\GYM_VidaYSalud\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Fabricio\Desktop\ProyectoJN\GYM_VidaYSalud\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\Fabricio\Desktop\ProyectoJN\GYM_VidaYSalud\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\Fabricio\Desktop\ProyectoJN\GYM_VidaYSalud\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\Fabricio\Desktop\ProyectoJN\GYM_VidaYSalud\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\Fabricio\Desktop\ProyectoJN\GYM_VidaYSalud\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Fabricio\Desktop\ProyectoJN\GYM_VidaYSalud\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Fabricio\Desktop\ProyectoJN\GYM_VidaYSalud\obj\Debug\net6.0\GYM_VidaYSalud.csproj.AssemblyReference.cache
+C:\Users\Fabricio\Desktop\ProyectoJN\GYM_VidaYSalud\obj\Debug\net6.0\GYM_VidaYSalud.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Fabricio\Desktop\ProyectoJN\GYM_VidaYSalud\obj\Debug\net6.0\GYM_VidaYSalud.AssemblyInfoInputs.cache
+C:\Users\Fabricio\Desktop\ProyectoJN\GYM_VidaYSalud\obj\Debug\net6.0\GYM_VidaYSalud.AssemblyInfo.cs
+C:\Users\Fabricio\Desktop\ProyectoJN\GYM_VidaYSalud\obj\Debug\net6.0\GYM_VidaYSalud.csproj.CoreCompileInputs.cache
+C:\Users\Fabricio\Desktop\ProyectoJN\GYM_VidaYSalud\obj\Debug\net6.0\GYM_VidaYSalud.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Fabricio\Desktop\ProyectoJN\GYM_VidaYSalud\obj\Debug\net6.0\GYM_VidaYSalud.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Fabricio\Desktop\ProyectoJN\GYM_VidaYSalud\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Fabricio\Desktop\ProyectoJN\GYM_VidaYSalud\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Fabricio\Desktop\ProyectoJN\GYM_VidaYSalud\obj\Debug\net6.0\scopedcss\bundle\GYM_VidaYSalud.styles.css
+C:\Users\Fabricio\Desktop\ProyectoJN\GYM_VidaYSalud\obj\Debug\net6.0\GYM_VidaYSalud.csproj.CopyComplete
+C:\Users\Fabricio\Desktop\ProyectoJN\GYM_VidaYSalud\obj\Debug\net6.0\GYM_VidaYSalud.genruntimeconfig.cache
+C:\Users\Fabricio\Desktop\ProyectoJN\GYM_VidaYSalud\obj\Debug\net6.0\ref\GYM_VidaYSalud.dll
