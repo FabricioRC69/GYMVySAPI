@@ -100,3 +100,37 @@ C:\Users\Fabricio\Desktop\ProyectoJN\GYM_VidaYSalud\obj\Debug\net6.0\scopedcss\b
 C:\Users\Fabricio\Desktop\ProyectoJN\GYM_VidaYSalud\obj\Debug\net6.0\GYM_VidaYSalud.csproj.CopyComplete
 C:\Users\Fabricio\Desktop\ProyectoJN\GYM_VidaYSalud\obj\Debug\net6.0\GYM_VidaYSalud.genruntimeconfig.cache
 C:\Users\Fabricio\Desktop\ProyectoJN\GYM_VidaYSalud\obj\Debug\net6.0\ref\GYM_VidaYSalud.dll
+D:\Uni. Fidelitas\Universidad 8 cuatrimestre\Programacion avanzada\Proyecto\API\GYMVySAPI\bin\Debug\net6.0\appsettings.Development.json
+D:\Uni. Fidelitas\Universidad 8 cuatrimestre\Programacion avanzada\Proyecto\API\GYMVySAPI\bin\Debug\net6.0\appsettings.json
+D:\Uni. Fidelitas\Universidad 8 cuatrimestre\Programacion avanzada\Proyecto\API\GYMVySAPI\bin\Debug\net6.0\GYM_VidaYSalud.exe
+D:\Uni. Fidelitas\Universidad 8 cuatrimestre\Programacion avanzada\Proyecto\API\GYMVySAPI\bin\Debug\net6.0\GYM_VidaYSalud.deps.json
+D:\Uni. Fidelitas\Universidad 8 cuatrimestre\Programacion avanzada\Proyecto\API\GYMVySAPI\bin\Debug\net6.0\GYM_VidaYSalud.runtimeconfig.json
+D:\Uni. Fidelitas\Universidad 8 cuatrimestre\Programacion avanzada\Proyecto\API\GYMVySAPI\bin\Debug\net6.0\GYM_VidaYSalud.dll
+D:\Uni. Fidelitas\Universidad 8 cuatrimestre\Programacion avanzada\Proyecto\API\GYMVySAPI\bin\Debug\net6.0\ref\GYM_VidaYSalud.dll
+D:\Uni. Fidelitas\Universidad 8 cuatrimestre\Programacion avanzada\Proyecto\API\GYMVySAPI\bin\Debug\net6.0\GYM_VidaYSalud.pdb
+D:\Uni. Fidelitas\Universidad 8 cuatrimestre\Programacion avanzada\Proyecto\API\GYMVySAPI\bin\Debug\net6.0\Dapper.dll
+D:\Uni. Fidelitas\Universidad 8 cuatrimestre\Programacion avanzada\Proyecto\API\GYMVySAPI\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\Uni. Fidelitas\Universidad 8 cuatrimestre\Programacion avanzada\Proyecto\API\GYMVySAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Uni. Fidelitas\Universidad 8 cuatrimestre\Programacion avanzada\Proyecto\API\GYMVySAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Uni. Fidelitas\Universidad 8 cuatrimestre\Programacion avanzada\Proyecto\API\GYMVySAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Uni. Fidelitas\Universidad 8 cuatrimestre\Programacion avanzada\Proyecto\API\GYMVySAPI\bin\Debug\net6.0\System.Data.SqlClient.dll
+D:\Uni. Fidelitas\Universidad 8 cuatrimestre\Programacion avanzada\Proyecto\API\GYMVySAPI\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+D:\Uni. Fidelitas\Universidad 8 cuatrimestre\Programacion avanzada\Proyecto\API\GYMVySAPI\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+D:\Uni. Fidelitas\Universidad 8 cuatrimestre\Programacion avanzada\Proyecto\API\GYMVySAPI\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+D:\Uni. Fidelitas\Universidad 8 cuatrimestre\Programacion avanzada\Proyecto\API\GYMVySAPI\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Uni. Fidelitas\Universidad 8 cuatrimestre\Programacion avanzada\Proyecto\API\GYMVySAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Uni. Fidelitas\Universidad 8 cuatrimestre\Programacion avanzada\Proyecto\API\GYMVySAPI\obj\Debug\net6.0\GYM_VidaYSalud.csproj.AssemblyReference.cache
+D:\Uni. Fidelitas\Universidad 8 cuatrimestre\Programacion avanzada\Proyecto\API\GYMVySAPI\obj\Debug\net6.0\GYM_VidaYSalud.GeneratedMSBuildEditorConfig.editorconfig
+D:\Uni. Fidelitas\Universidad 8 cuatrimestre\Programacion avanzada\Proyecto\API\GYMVySAPI\obj\Debug\net6.0\GYM_VidaYSalud.AssemblyInfoInputs.cache
+D:\Uni. Fidelitas\Universidad 8 cuatrimestre\Programacion avanzada\Proyecto\API\GYMVySAPI\obj\Debug\net6.0\GYM_VidaYSalud.AssemblyInfo.cs
+D:\Uni. Fidelitas\Universidad 8 cuatrimestre\Programacion avanzada\Proyecto\API\GYMVySAPI\obj\Debug\net6.0\GYM_VidaYSalud.csproj.CoreCompileInputs.cache
+D:\Uni. Fidelitas\Universidad 8 cuatrimestre\Programacion avanzada\Proyecto\API\GYMVySAPI\obj\Debug\net6.0\GYM_VidaYSalud.MvcApplicationPartsAssemblyInfo.cs
+D:\Uni. Fidelitas\Universidad 8 cuatrimestre\Programacion avanzada\Proyecto\API\GYMVySAPI\obj\Debug\net6.0\GYM_VidaYSalud.MvcApplicationPartsAssemblyInfo.cache
+D:\Uni. Fidelitas\Universidad 8 cuatrimestre\Programacion avanzada\Proyecto\API\GYMVySAPI\obj\Debug\net6.0\staticwebassets.build.json
+D:\Uni. Fidelitas\Universidad 8 cuatrimestre\Programacion avanzada\Proyecto\API\GYMVySAPI\obj\Debug\net6.0\staticwebassets.development.json
+D:\Uni. Fidelitas\Universidad 8 cuatrimestre\Programacion avanzada\Proyecto\API\GYMVySAPI\obj\Debug\net6.0\scopedcss\bundle\GYM_VidaYSalud.styles.css
+D:\Uni. Fidelitas\Universidad 8 cuatrimestre\Programacion avanzada\Proyecto\API\GYMVySAPI\obj\Debug\net6.0\GYM_VidaYSalud.csproj.CopyComplete
+D:\Uni. Fidelitas\Universidad 8 cuatrimestre\Programacion avanzada\Proyecto\API\GYMVySAPI\obj\Debug\net6.0\GYM_VidaYSalud.dll
+D:\Uni. Fidelitas\Universidad 8 cuatrimestre\Programacion avanzada\Proyecto\API\GYMVySAPI\obj\Debug\net6.0\ref\GYM_VidaYSalud.dll
+D:\Uni. Fidelitas\Universidad 8 cuatrimestre\Programacion avanzada\Proyecto\API\GYMVySAPI\obj\Debug\net6.0\GYM_VidaYSalud.pdb
+D:\Uni. Fidelitas\Universidad 8 cuatrimestre\Programacion avanzada\Proyecto\API\GYMVySAPI\obj\Debug\net6.0\GYM_VidaYSalud.genruntimeconfig.cache

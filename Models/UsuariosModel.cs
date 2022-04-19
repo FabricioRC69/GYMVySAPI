@@ -16,11 +16,11 @@ namespace GYM_VidaYSalud.Models
                 return datos.FirstOrDefault();
             }
         }
-        public void RegistraUsuario(string Correo, string Contraseña, string Rol, string conexion)
+        public void RegistraUsuario(UsuariosObj usuario, string conexion)
         {
             using (var conn = new SqlConnection(conexion))
             {
-                conn.Execute("RegistrarUsuario", new { Correo, Contraseña, Rol }, commandType: CommandType.StoredProcedure);
+                conn.Execute("RegistrarUsuario", new { usuario.Correo, usuario.Contraseña, usuario.Rol }, commandType: CommandType.StoredProcedure);
 
             }
         }

@@ -74,12 +74,13 @@ namespace GYM_VidaYSalud.Controllers
 
         [HttpPost]
         [Route("/api/Proyecto/RegistrarUsuario")]
-        public ActionResult<RespuestaDatosUsuarios> RegistrarUsuario(string Correo, string Contraseña, string Rol)
+        public ActionResult<RespuestaDatosUsuarios> RegistrarUsuario(UsuariosObj usuario)
         {
             try
             {
                 
-                model.RegistraUsuario(Correo, Contraseña, Rol, _configuration.GetSection("Llaves:DefaultConnection").Value);
+                model.RegistraUsuario(usuario, _configuration.GetSection("Llaves:DefaultConnection").Value);
+
                 RespuestaDatosUsuarios resp = new RespuestaDatosUsuarios();
                 resp.Mensaje = "Usuario registrado con exito";
                 resp.Datos = null;

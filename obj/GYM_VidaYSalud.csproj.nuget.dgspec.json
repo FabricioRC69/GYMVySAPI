@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Fabricio\\Desktop\\ProyectoJN\\GYM_VidaYSalud\\GYM_VidaYSalud.csproj": {}
+    "D:\\Uni. Fidelitas\\Universidad 8 cuatrimestre\\Programacion avanzada\\Proyecto\\API\\GYMVySAPI\\GYM_VidaYSalud.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Fabricio\\Desktop\\ProyectoJN\\GYM_VidaYSalud\\GYM_VidaYSalud.csproj": {
+    "D:\\Uni. Fidelitas\\Universidad 8 cuatrimestre\\Programacion avanzada\\Proyecto\\API\\GYMVySAPI\\GYM_VidaYSalud.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Fabricio\\Desktop\\ProyectoJN\\GYM_VidaYSalud\\GYM_VidaYSalud.csproj",
+        "projectUniqueName": "D:\\Uni. Fidelitas\\Universidad 8 cuatrimestre\\Programacion avanzada\\Proyecto\\API\\GYMVySAPI\\GYM_VidaYSalud.csproj",
         "projectName": "GYM_VidaYSalud",
-        "projectPath": "C:\\Users\\Fabricio\\Desktop\\ProyectoJN\\GYM_VidaYSalud\\GYM_VidaYSalud.csproj",
-        "packagesPath": "C:\\Users\\Fabricio\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Fabricio\\Desktop\\ProyectoJN\\GYM_VidaYSalud\\obj\\",
+        "projectPath": "D:\\Uni. Fidelitas\\Universidad 8 cuatrimestre\\Programacion avanzada\\Proyecto\\API\\GYMVySAPI\\GYM_VidaYSalud.csproj",
+        "packagesPath": "C:\\Users\\pey09\\.nuget\\packages\\",
+        "outputPath": "D:\\Uni. Fidelitas\\Universidad 8 cuatrimestre\\Programacion avanzada\\Proyecto\\API\\GYMVySAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Fabricio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\pey09\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -71,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
