@@ -15,11 +15,11 @@ namespace GYM_VidaYSalud.Models
             }
         }
 
-        public MedidasObj ConsultarUnaMedida(string Cedula, string conexion)
+        public MedidasObj ConsultarUnaMedida(long idMedidas, string conexion)
         {
             using (var conn = new SqlConnection(conexion))
             {
-                var datos = (List<MedidasObj>)conn.Query<MedidasObj>("ConsultarMedidaPersona", new { Cedula }, commandType: CommandType.StoredProcedure);
+                var datos = (List<MedidasObj>)conn.Query<MedidasObj>("ConsultarMedidaPersona", new { idMedidas }, commandType: CommandType.StoredProcedure);
                 return datos.FirstOrDefault();
             }
         }
@@ -31,11 +31,11 @@ namespace GYM_VidaYSalud.Models
                 return (List<MedidasSelectObj>)conn.Query<MedidasSelectObj>("MedidaSelectList", new { }, commandType: CommandType.StoredProcedure);
             }
         }
-        public List<MedidasSelectObj> ConsultarMedidaSelectListAll(string conexion)
+        public List<MedidasSelectObj> ConsultarMedidaSelectListAll(long idCliente, string conexion)
         {
             using (var conn = new SqlConnection(conexion))
             {
-                return (List<MedidasSelectObj>)conn.Query<MedidasSelectObj>("MedidaSelectListAll", new { }, commandType: CommandType.StoredProcedure);
+                return (List<MedidasSelectObj>)conn.Query<MedidasSelectObj>("MedidaSelectListAll", new { idCliente }, commandType: CommandType.StoredProcedure);
             }
         }
 
@@ -58,7 +58,7 @@ namespace GYM_VidaYSalud.Models
                     medida.MusloI,
                     medida.PantorrillaD,
                     medida.PantorrillaI,
-                    medida.Cedula
+                    medida.idCliente
                 }, commandType: CommandType.StoredProcedure);
 
             }
@@ -70,6 +70,7 @@ namespace GYM_VidaYSalud.Models
             {
                 conn.Execute("ModificarMedida", new
                 {
+                    medida.idMedidas,
                     medida.Peso,
                     medida.Altura,
                     medida.Hombro,
@@ -83,7 +84,7 @@ namespace GYM_VidaYSalud.Models
                     medida.MusloI,
                     medida.PantorrillaD,
                     medida.PantorrillaI,
-                    medida.Cedula
+                    medida.idCliente
                 }, commandType: CommandType.StoredProcedure);
 
             

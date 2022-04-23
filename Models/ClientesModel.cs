@@ -15,11 +15,11 @@ namespace GYM_VidaYSalud.Models
             }
         }
 
-        public ClientesObj ConsultarUnCliente(string Cedula, string conexion)
+        public ClientesObj ConsultarUnCliente(long idCliente, string conexion)
         {
             using (var conn = new SqlConnection(conexion))
             {
-                var datos = (List<ClientesObj>)conn.Query<ClientesObj>("ConsultarUnCliente", new { Cedula }, commandType: CommandType.StoredProcedure);
+                var datos = (List<ClientesObj>)conn.Query<ClientesObj>("ConsultarUnCliente", new { idCliente }, commandType: CommandType.StoredProcedure);
                 return datos.FirstOrDefault();
             }
         }
@@ -28,25 +28,25 @@ namespace GYM_VidaYSalud.Models
         {
             using (var conn = new SqlConnection(conexion))
             {
-                conn.Execute("RegistrarCliente", new { cliente.Cedula, cliente.NombreCompleto, cliente.NumContacto, cliente.Correo }, commandType: CommandType.StoredProcedure);
+                conn.Execute("RegistrarCliente", new {cliente.Cedula, cliente.NombreCompleto, cliente.NumContacto, cliente.Correo }, commandType: CommandType.StoredProcedure);
 
             }
         }
 
-        public void ModificarCliente(string Cedula, string NombreCompleto, string NumContacto, string Correo, string conexion)
+        public void ModificarCliente(ClientesObj cliente, string conexion)
         {
             using (var conn = new SqlConnection(conexion))
             {
-                conn.Execute("ModificarCliente", new { Cedula, NombreCompleto, NumContacto, Correo }, commandType: CommandType.StoredProcedure);
+                conn.Execute("ModificarCliente", new { cliente.idCliente, cliente.Cedula, cliente.NombreCompleto, cliente.NumContacto, cliente.Correo }, commandType: CommandType.StoredProcedure);
 
             }
         }
 
-        public void EliminarCliente(string Cedula, string conexion)
+        public void EliminarCliente(long idCliente, string conexion)
         {
             using (var conn = new SqlConnection(conexion))
             {
-                conn.Execute("EliminarCliente", new { Cedula}, commandType: CommandType.StoredProcedure);
+                conn.Execute("EliminarCliente", new { idCliente }, commandType: CommandType.StoredProcedure);
 
             }
         }

@@ -43,11 +43,11 @@ namespace GYM_VidaYSalud.Controllers
 
         [HttpGet]
         [Route("/api/Proyecto/ConsultarUnaMedida")]
-        public ActionResult<RespuestaDatosMedidas> ConsultarMedidaPersona(string Cedula)
+        public ActionResult<RespuestaDatosMedidas> ConsultarMedidaPersona(long idMedidas)
         {
             try
             {
-                var respuesta = model.ConsultarUnaMedida(Cedula, _configuration.GetSection("Llaves:DefaultConnection").Value);
+                var respuesta = model.ConsultarUnaMedida(idMedidas, _configuration.GetSection("Llaves:DefaultConnection").Value);
 
                 RespuestaDatosMedidas resp = new RespuestaDatosMedidas();
                 resp.Mensaje = "Consulta correcta";
@@ -132,11 +132,11 @@ namespace GYM_VidaYSalud.Controllers
         }
         [HttpGet]
         [Route("/api/Proyecto/MedidaSelectListAll")]
-        public ActionResult<RespuestaDatosMedidaSelectList> MedidaSelectListAll()
+        public ActionResult<RespuestaDatosMedidaSelectList> MedidaSelectListAll(long idCliente)
         {
             try
             {
-                var respuesta = model.ConsultarMedidaSelectListAll(_configuration.GetSection("Llaves:DefaultConnection").Value);
+                var respuesta = model.ConsultarMedidaSelectListAll(idCliente, _configuration.GetSection("Llaves:DefaultConnection").Value);
 
                 RespuestaDatosMedidaSelectList resp = new RespuestaDatosMedidaSelectList();
                 resp.Mensaje = "Consulta correcta";

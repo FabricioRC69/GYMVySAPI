@@ -2,7 +2,7 @@
 {
     public class ClientesObj
     {
-        
+        public long idCliente { get; set; }
         public string Cedula { get; set; } = string.Empty;
         public string NombreCompleto { get; set; } = string.Empty;
         public string Dia_de_Pago_Cada_Mes { get; set; } = string.Empty;
