@@ -24,6 +24,21 @@ namespace GYM_VidaYSalud.Models
             }
         }
 
+        public List<MedidasSelectObj> ConsultarMedidaSelectList(string conexion)
+        {
+            using (var conn = new SqlConnection(conexion))
+            {
+                return (List<MedidasSelectObj>)conn.Query<MedidasSelectObj>("MedidaSelectList", new { }, commandType: CommandType.StoredProcedure);
+            }
+        }
+        public List<MedidasSelectObj> ConsultarMedidaSelectListAll(string conexion)
+        {
+            using (var conn = new SqlConnection(conexion))
+            {
+                return (List<MedidasSelectObj>)conn.Query<MedidasSelectObj>("MedidaSelectListAll", new { }, commandType: CommandType.StoredProcedure);
+            }
+        }
+
         public void RegistrarMedida(MedidasObj medida, string conexion)
         {
             using (var conn = new SqlConnection(conexion))
@@ -49,30 +64,31 @@ namespace GYM_VidaYSalud.Models
             }
         }
 
-        public void ModificarMedida(string Cedula, string Peso, string Altura, string Hombro, string Pecho, string Cadera, string Abdomen
-           , string Cintura, string BicepD, string BicepI, string MusloD, string MusloI, string PantorrillaD, string PantorrillaI, string conexion)
+        public void ModificarMedida(MedidasObj medida, string conexion)
         {
             using (var conn = new SqlConnection(conexion))
             {
                 conn.Execute("ModificarMedida", new
                 {
-                    Cedula,
-                    Peso,
-                    Altura,
-                    Hombro,
-                    Pecho,
-                    Cadera,
-                    Abdomen,
-                    Cintura,
-                    BicepD,
-                    BicepI,
-                    MusloD,
-                    MusloI,
-                    PantorrillaD,
-                    PantorrillaI
+                    medida.Peso,
+                    medida.Altura,
+                    medida.Hombro,
+                    medida.Pecho,
+                    medida.Cadera,
+                    medida.Abdomen,
+                    medida.Cintura,
+                    medida.BicepD,
+                    medida.BicepI,
+                    medida.MusloD,
+                    medida.MusloI,
+                    medida.PantorrillaD,
+                    medida.PantorrillaI,
+                    medida.Cedula
                 }, commandType: CommandType.StoredProcedure);
 
-            }
+            
+
+             }
         }
     }
 }

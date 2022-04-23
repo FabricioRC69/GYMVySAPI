@@ -679,19 +679,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\pey09\\.nuget\\packages\\": {}
+    "C:\\Users\\Steve AS\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Uni. Fidelitas\\Universidad 8 cuatrimestre\\Programacion avanzada\\Proyecto\\API\\GYMVySAPI\\GYM_VidaYSalud.csproj",
+      "projectUniqueName": "D:\\SEXTO CUATRI\\PROGRAMACION AVANZADA EN WEB\\PROYECTO\\GYMVySAPI\\GYM_VidaYSalud.csproj",
       "projectName": "GYM_VidaYSalud",
-      "projectPath": "D:\\Uni. Fidelitas\\Universidad 8 cuatrimestre\\Programacion avanzada\\Proyecto\\API\\GYMVySAPI\\GYM_VidaYSalud.csproj",
-      "packagesPath": "C:\\Users\\pey09\\.nuget\\packages\\",
-      "outputPath": "D:\\Uni. Fidelitas\\Universidad 8 cuatrimestre\\Programacion avanzada\\Proyecto\\API\\GYMVySAPI\\obj\\",
+      "projectPath": "D:\\SEXTO CUATRI\\PROGRAMACION AVANZADA EN WEB\\PROYECTO\\GYMVySAPI\\GYM_VidaYSalud.csproj",
+      "packagesPath": "C:\\Users\\Steve AS\\.nuget\\packages\\",
+      "outputPath": "D:\\SEXTO CUATRI\\PROGRAMACION AVANZADA EN WEB\\PROYECTO\\GYMVySAPI\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\pey09\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Steve AS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -748,7 +753,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

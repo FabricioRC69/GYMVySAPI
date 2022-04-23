@@ -18,11 +18,23 @@
         public string Cedula { get; set; } = string.Empty;
     }
 
+    public class MedidasSelectObj
+    {
+        public string Cedula { get; set; } = string.Empty;
+        public string NombreCompleto { get; set; } = string.Empty;
+    }
     public class RespuestaDatosMedidas
     {
         public string Mensaje { get; set; } = string.Empty;
         public List<MedidasObj> ListaDatos { get; set; } = null;
         public MedidasObj Datos { get; set; } = null;
+
+    }   
+    public class RespuestaDatosMedidaSelectList
+    {
+        public string Mensaje { get; set; } = string.Empty;
+        public List<MedidasSelectObj> ListaDatos { get; set; } = null;
+        public MedidasSelectObj Datos { get; set; } = null;
 
     }
 }

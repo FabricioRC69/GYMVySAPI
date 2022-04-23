@@ -21,7 +21,7 @@ namespace GYM_VidaYSalud.Controllers
 
         [HttpGet]
         [Route("/api/Proyecto/ConsultarTodasMedidas")]
-        public ActionResult<RespuestaDatosMedidas> ConsultarClientes()
+        public ActionResult<RespuestaDatosMedidas> ConsultarMedidas()
         {
             try
             {
@@ -65,7 +65,7 @@ namespace GYM_VidaYSalud.Controllers
 
         [HttpPost]
         [Route("/api/Proyecto/RegistrarMedida")]
-        public ActionResult<RespuestaDatosMedidas> RegistrarMedida(MedidasObj medida , string Cedula)
+        public ActionResult<RespuestaDatosMedidas> RegistrarMedida(MedidasObj medida)
         {
             try
             {
@@ -85,52 +85,69 @@ namespace GYM_VidaYSalud.Controllers
                 return BadRequest(resp);
             }
         }
+
         [HttpPut]
         [Route("/api/Proyecto/ModificarMedida")]
-        public ActionResult<RespuestaDatosMedidas> Actualizar(string Cedula, string Peso, string Altura, string Hombro, string Pecho, string Cadera, string Abdomen
-            , string Cintura, string BicepD, string BicepI, string MusloD, string MusloI, string PantorrillaD, string PantorrillaI)
+        public ActionResult<RespuestaDatosMedidas> Actualizar(MedidasObj medida)
         {
             try
             {
-                var medida = model.ConsultarUnaMedida(Cedula, _configuration.GetSection("Llaves:DefaultConnection").Value);
-
-                if (medida != null)
-                {
-                    model.ModificarMedida(
-                    Cedula,
-                    Peso,
-                    Altura,
-                    Hombro,
-                    Pecho,
-                    Cadera,
-                    Abdomen,
-                    Cintura,
-                    BicepD,
-                    BicepI,
-                    MusloD,
-                    MusloI,
-                    PantorrillaD,
-                    PantorrillaI,
+                model.ModificarMedida(medida,
                     _configuration.GetSection("Llaves:DefaultConnection").Value);
 
-                    RespuestaDatosMedidas resp = new RespuestaDatosMedidas();
-                    resp.Mensaje = "Se modificaron los datos con exito";
-                    resp.Datos = null;
-                    return Ok(resp);
-                }
-                else
-                {
-                    RespuestaDatosMedidas resp = new RespuestaDatosMedidas();
-                    resp.Mensaje = "No se encontró el registro";
-                    resp.Datos = null;
-                    return Ok(resp);
-                }
+                RespuestaDatosMedidas resp = new RespuestaDatosMedidas();
+                resp.Mensaje = "Medida Actualizada con exito";
+                resp.Datos = null;
+                return Ok(resp);
             }
             catch (Exception ex)
             {
                 RespuestaDatosMedidas resp = new RespuestaDatosMedidas();
                 resp.Mensaje = ex.Message;
                 resp.Datos = null;
+                return BadRequest(resp);
+            }
+        }
+
+        [HttpGet]
+        [Route("/api/Proyecto/MedidaSelectList")]
+        public ActionResult<RespuestaDatosMedidaSelectList> MedidaSelectList()
+        {
+            try
+            {
+                var respuesta = model.ConsultarMedidaSelectList(_configuration.GetSection("Llaves:DefaultConnection").Value);
+
+                RespuestaDatosMedidaSelectList resp = new RespuestaDatosMedidaSelectList();
+                resp.Mensaje = "Consulta correcta";
+                resp.ListaDatos = respuesta;
+                return Ok(resp);
+            }
+            catch (Exception ex)
+            {
+                RespuestaDatosMedidaSelectList resp = new RespuestaDatosMedidaSelectList();
+                resp.Mensaje = ex.Message;
+                resp.ListaDatos = null;
+                return BadRequest(resp);
+            }
+        }
+        [HttpGet]
+        [Route("/api/Proyecto/MedidaSelectListAll")]
+        public ActionResult<RespuestaDatosMedidaSelectList> MedidaSelectListAll()
+        {
+            try
+            {
+                var respuesta = model.ConsultarMedidaSelectListAll(_configuration.GetSection("Llaves:DefaultConnection").Value);
+
+                RespuestaDatosMedidaSelectList resp = new RespuestaDatosMedidaSelectList();
+                resp.Mensaje = "Consulta correcta";
+                resp.ListaDatos = respuesta;
+                return Ok(resp);
+            }
+            catch (Exception ex)
+            {
+                RespuestaDatosMedidaSelectList resp = new RespuestaDatosMedidaSelectList();
+                resp.Mensaje = ex.Message;
+                resp.ListaDatos = null;
                 return BadRequest(resp);
             }
         }
