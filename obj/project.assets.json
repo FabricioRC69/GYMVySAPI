@@ -685,11 +685,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\SEXTO CUATRI\\PROGRAMACION AVANZADA EN WEB\\PROYECTO\\GYMVySAPI\\GYM_VidaYSalud.csproj",
+      "projectUniqueName": "D:\\SEXTO CUATRI\\PROGRAMACION AVANZADA EN WEB\\PROYECTO\\Proyecto\\GYMVySAPI\\GYM_VidaYSalud.csproj",
       "projectName": "GYM_VidaYSalud",
-      "projectPath": "D:\\SEXTO CUATRI\\PROGRAMACION AVANZADA EN WEB\\PROYECTO\\GYMVySAPI\\GYM_VidaYSalud.csproj",
+      "projectPath": "D:\\SEXTO CUATRI\\PROGRAMACION AVANZADA EN WEB\\PROYECTO\\Proyecto\\GYMVySAPI\\GYM_VidaYSalud.csproj",
       "packagesPath": "C:\\Users\\Steve AS\\.nuget\\packages\\",
-      "outputPath": "D:\\SEXTO CUATRI\\PROGRAMACION AVANZADA EN WEB\\PROYECTO\\GYMVySAPI\\obj\\",
+      "outputPath": "D:\\SEXTO CUATRI\\PROGRAMACION AVANZADA EN WEB\\PROYECTO\\Proyecto\\GYMVySAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

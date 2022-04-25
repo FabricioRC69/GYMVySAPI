@@ -19,6 +19,27 @@ namespace GYM_VidaYSalud.Controllers
             _configuration = configuration;
         }
 
+        [HttpGet]
+        [Route("/api/Proyecto/ConsultarUsuarios")]
+        public ActionResult<RespuestaDatosUsuarios> ConsultarUsuarios()
+        {
+            try
+            {
+                var respuesta = model.ConsultarUsuarios(_configuration.GetSection("Llaves:DefaultConnection").Value);
+
+                RespuestaDatosUsuarios resp = new RespuestaDatosUsuarios();
+                resp.Mensaje = "Consulta correcta";
+                resp.ListaDatos = respuesta;
+                return Ok(resp);
+            }
+            catch (Exception ex)
+            {
+                RespuestaDatosUsuarios resp = new RespuestaDatosUsuarios();
+                resp.Mensaje = ex.Message;
+                resp.ListaDatos = null;
+                return BadRequest(resp);
+            }
+        }
 
         [HttpGet]
         [Route("/api/Proyecto/ConsultarLogin")]
@@ -85,6 +106,127 @@ namespace GYM_VidaYSalud.Controllers
                 resp.Mensaje = "Usuario registrado con exito";
                 resp.Datos = null;
                 return Ok(resp);
+            }
+            catch (Exception ex)
+            {
+                RespuestaDatosUsuarios resp = new RespuestaDatosUsuarios();
+                resp.Mensaje = ex.Message;
+                resp.Datos = null;
+                return BadRequest(resp);
+            }
+        }
+        [HttpGet]
+        [Route("/api/Proyecto/ConsultarUnUsuario")]
+        public ActionResult<RespuestaDatosUsuarios> ConsultarUnUsuario(long idUsuario)
+        {
+            try
+            {
+                var respuesta = model.ConsultarUnUsuario(idUsuario, _configuration.GetSection("Llaves:DefaultConnection").Value);
+
+                RespuestaDatosUsuarios resp = new RespuestaDatosUsuarios();
+                resp.Mensaje = "Consulta correcta";
+                resp.Datos = respuesta;
+                return Ok(resp);
+            }
+            catch (Exception ex)
+            {
+                RespuestaDatosUsuarios resp = new RespuestaDatosUsuarios();
+                resp.Mensaje = ex.Message;
+                resp.Datos = null;
+                return BadRequest(resp);
+            }
+        }
+
+        [HttpPut]
+        [Route("/api/Proyecto/ModificarUsuario")]
+        public ActionResult<RespuestaDatosUsuarios> ActualizarUsuario(UsuariosObj usuario)
+        {
+            try
+            {
+                var respuesta = model.ConsultarUnUsuario(usuario.idUsuario, _configuration.GetSection("Llaves:DefaultConnection").Value);
+
+                if (respuesta != null)
+                {
+                    model.ModificarUsuario(usuario, _configuration.GetSection("Llaves:DefaultConnection").Value);
+
+                    RespuestaDatosUsuarios resp = new RespuestaDatosUsuarios();
+                    resp.Mensaje = "Se modificaron los datos con exito";
+                    resp.Datos = null;
+                    return Ok(resp);
+                }
+                else
+                {
+                    RespuestaDatosUsuarios resp = new RespuestaDatosUsuarios();
+                    resp.Mensaje = "No se encontró el registro";
+                    resp.Datos = null;
+                    return Ok(resp);
+                }
+            }
+            catch (Exception ex)
+            {
+                RespuestaDatosUsuarios resp = new RespuestaDatosUsuarios();
+                resp.Mensaje = ex.Message;
+                resp.Datos = null;
+                return BadRequest(resp);
+            }
+        }
+        [HttpPut]
+        [Route("/api/Proyecto/ModificarUsuarioSinPermisos")]
+        public ActionResult<RespuestaDatosUsuarios> ActualizarUsuarioSinPermisos(UsuariosObjSinPermisos usuario)
+        {
+            try
+            {
+                var respuesta = model.ConsultarUnUsuario(usuario.idUsuario, _configuration.GetSection("Llaves:DefaultConnection").Value);
+
+                if (respuesta != null)
+                {
+                    model.ModificarUsuarioSinPermisos(usuario, _configuration.GetSection("Llaves:DefaultConnection").Value);
+
+                    RespuestaDatosUsuarios resp = new RespuestaDatosUsuarios();
+                    resp.Mensaje = "Se modificaron los datos con exito";
+                    resp.Datos = null;
+                    return Ok(resp);
+                }
+                else
+                {
+                    RespuestaDatosUsuarios resp = new RespuestaDatosUsuarios();
+                    resp.Mensaje = "No se encontró el registro";
+                    resp.Datos = null;
+                    return Ok(resp);
+                }
+            }
+            catch (Exception ex)
+            {
+                RespuestaDatosUsuarios resp = new RespuestaDatosUsuarios();
+                resp.Mensaje = ex.Message;
+                resp.Datos = null;
+                return BadRequest(resp);
+            }
+        }
+        [HttpDelete]
+        [Route("/api/Proyecto/EliminarUsuario")]
+        public ActionResult<RespuestaDatosUsuarios> EliminarUsuario(long idUsuario)
+        {
+            try
+            {
+                var cliente = model.ConsultarUnUsuario(idUsuario, _configuration.GetSection("Llaves:DefaultConnection").Value);
+
+                if (cliente != null)
+                {
+                    model.EliminarUsuario(idUsuario, _configuration.GetSection("Llaves:DefaultConnection").Value);
+
+                    RespuestaDatosUsuarios resp = new RespuestaDatosUsuarios();
+                    resp.Mensaje = "Se eliminó el usuario con exito";
+                    resp.Datos = null;
+                    return Ok(resp);
+                }
+                else
+                {
+                    RespuestaDatosUsuarios resp = new RespuestaDatosUsuarios();
+                    resp.Mensaje = "No se encontró el registro";
+                    resp.Datos = null;
+                    return Ok(resp);
+                }
             }
             catch (Exception ex)
             {

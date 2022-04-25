@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DqNPbZmW/VWf7vW4XmzsIPGX/T51PNk5ic/phakLBicN+gV0zaTSAxqkcYJWavqMhbDHY06Tl/URJkjXcN06Bw==",
+  "dgSpecHash": "FOp6B6muG3uJwl924/XLDD0EFeDC/0i203YuzmfmsJwv8ijnqkCfkJQP40GHNBhAz0qWyqw1l6N2Y0rzsUNUGg==",
   "success": true,
-  "projectFilePath": "D:\\SEXTO CUATRI\\PROGRAMACION AVANZADA EN WEB\\PROYECTO\\GYMVySAPI\\GYM_VidaYSalud.csproj",
+  "projectFilePath": "D:\\SEXTO CUATRI\\PROGRAMACION AVANZADA EN WEB\\PROYECTO\\Proyecto\\GYMVySAPI\\GYM_VidaYSalud.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Steve AS\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
     "C:\\Users\\Steve AS\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
