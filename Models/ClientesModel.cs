@@ -50,5 +50,6 @@ namespace GYM_VidaYSalud.Models
 
             }
         }
+
     }
 }
